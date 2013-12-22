@@ -9,11 +9,23 @@
 #import "kaiAddTazkViewController.h"
 
 @interface kaiAddTazkViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *doneButton;
 
 @end
 
 @implementation kaiAddTazkViewController
 
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if (sender != self.doneButton) return;
+    if (self.textField.text.length > 0)
+    {
+        self.TazkItem = [[kaiTazkItem alloc] init];
+        self.TazkItem.itemName = self.textField.text;
+        self.TazkItem.completed = NO;
+    }
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

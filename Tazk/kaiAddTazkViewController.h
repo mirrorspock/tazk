@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "kaiTazkItem.h"
 
 @interface kaiAddTazkViewController : UIViewController
+
+@property kaiTazkItem *TazkItem;
 
 @end

@@ -8,6 +8,7 @@
 
 #import "kaiTazkListViewController.h"
 #import "kaiTazkItem.h"
+#import "kaiAddTazkViewController.h"
 
 @interface kaiTazkListViewController ()
 
@@ -35,8 +36,13 @@
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)seque
 {
-    
-
+    kaiAddTazkViewController *source = [seque sourceViewController];
+    kaiTazkItem *item = source.TazkItem;
+    if (item != nil)
+    {
+        [self.TazkItems addObject:item];
+        [self.tableView reloadData];
+    }
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
