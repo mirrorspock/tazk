@@ -19,6 +19,7 @@
 		99032E261867376D00CB7B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99032E0E1867376C00CB7B43 /* UIKit.framework */; };
 		99032E2E1867376D00CB7B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99032E2C1867376D00CB7B43 /* InfoPlist.strings */; };
 		99032E301867376D00CB7B43 /* TazkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99032E2F1867376D00CB7B43 /* TazkTests.m */; };
+		99032E3A18673CAB00CB7B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99032E3918673CAB00CB7B43 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		99032E2B1867376D00CB7B43 /* TazkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TazkTests-Info.plist"; sourceTree = "<group>"; };
 		99032E2D1867376D00CB7B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99032E2F1867376D00CB7B43 /* TazkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TazkTests.m; sourceTree = "<group>"; };
+		99032E3918673CAB00CB7B43 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				99032E191867376C00CB7B43 /* kaiAppDelegate.h */,
 				99032E1A1867376C00CB7B43 /* kaiAppDelegate.m */,
+				99032E3918673CAB00CB7B43 /* Main.storyboard */,
 				99032E1C1867376C00CB7B43 /* Images.xcassets */,
 				99032E111867376C00CB7B43 /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99032E3A18673CAB00CB7B43 /* Main.storyboard in Resources */,
 				99032E151867376C00CB7B43 /* InfoPlist.strings in Resources */,
 				99032E1D1867376C00CB7B43 /* Images.xcassets in Resources */,
 			);
@@ -360,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tazk/Tazk-Prefix.pch";
 				INFOPLIST_FILE = "Tazk/Tazk-Info.plist";
@@ -373,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tazk/Tazk-Prefix.pch";
 				INFOPLIST_FILE = "Tazk/Tazk-Info.plist";
