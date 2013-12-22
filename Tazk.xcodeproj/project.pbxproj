@@ -20,6 +20,9 @@
 		99032E2E1867376D00CB7B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99032E2C1867376D00CB7B43 /* InfoPlist.strings */; };
 		99032E301867376D00CB7B43 /* TazkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99032E2F1867376D00CB7B43 /* TazkTests.m */; };
 		99032E3A18673CAB00CB7B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99032E3918673CAB00CB7B43 /* Main.storyboard */; };
+		9960EB94186776F8005AEE05 /* kaiAddTazkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9960EB91186776F8005AEE05 /* kaiAddTazkViewController.m */; };
+		9960EB95186776F8005AEE05 /* kaiTazkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9960EB93186776F8005AEE05 /* kaiTazkListViewController.m */; };
+		9960EB9818677780005AEE05 /* kaiTazkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9960EB9718677780005AEE05 /* kaiTazkItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		99032E2D1867376D00CB7B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99032E2F1867376D00CB7B43 /* TazkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TazkTests.m; sourceTree = "<group>"; };
 		99032E3918673CAB00CB7B43 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9960EB90186776F8005AEE05 /* kaiAddTazkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaiAddTazkViewController.h; sourceTree = "<group>"; };
+		9960EB91186776F8005AEE05 /* kaiAddTazkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaiAddTazkViewController.m; sourceTree = "<group>"; };
+		9960EB92186776F8005AEE05 /* kaiTazkListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaiTazkListViewController.h; sourceTree = "<group>"; };
+		9960EB93186776F8005AEE05 /* kaiTazkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaiTazkListViewController.m; sourceTree = "<group>"; };
+		9960EB9618677780005AEE05 /* kaiTazkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kaiTazkItem.h; sourceTree = "<group>"; };
+		9960EB9718677780005AEE05 /* kaiTazkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kaiTazkItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +118,17 @@
 		99032E101867376C00CB7B43 /* Tazk */ = {
 			isa = PBXGroup;
 			children = (
+				9960EB90186776F8005AEE05 /* kaiAddTazkViewController.h */,
+				9960EB91186776F8005AEE05 /* kaiAddTazkViewController.m */,
+				9960EB92186776F8005AEE05 /* kaiTazkListViewController.h */,
+				9960EB93186776F8005AEE05 /* kaiTazkListViewController.m */,
 				99032E191867376C00CB7B43 /* kaiAppDelegate.h */,
 				99032E1A1867376C00CB7B43 /* kaiAppDelegate.m */,
 				99032E3918673CAB00CB7B43 /* Main.storyboard */,
 				99032E1C1867376C00CB7B43 /* Images.xcassets */,
 				99032E111867376C00CB7B43 /* Supporting Files */,
+				9960EB9618677780005AEE05 /* kaiTazkItem.h */,
+				9960EB9718677780005AEE05 /* kaiTazkItem.m */,
 			);
 			path = Tazk;
 			sourceTree = "<group>";
@@ -244,7 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9960EB9818677780005AEE05 /* kaiTazkItem.m in Sources */,
+				9960EB95186776F8005AEE05 /* kaiTazkListViewController.m in Sources */,
 				99032E1B1867376C00CB7B43 /* kaiAppDelegate.m in Sources */,
+				9960EB94186776F8005AEE05 /* kaiAddTazkViewController.m in Sources */,
 				99032E171867376C00CB7B43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +466,7 @@
 				99032E351867376D00CB7B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99032E361867376D00CB7B43 /* Build configuration list for PBXNativeTarget "TazkTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +475,7 @@
 				99032E381867376D00CB7B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
