@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99032E0B1867376C00CB7B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99032E0A1867376C00CB7B43 /* Foundation.framework */; };
+		99032E0D1867376C00CB7B43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99032E0C1867376C00CB7B43 /* CoreGraphics.framework */; };
+		99032E0F1867376C00CB7B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99032E0E1867376C00CB7B43 /* UIKit.framework */; };
+		99032E151867376C00CB7B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99032E131867376C00CB7B43 /* InfoPlist.strings */; };
+		99032E171867376C00CB7B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99032E161867376C00CB7B43 /* main.m */; };
+		99032E1B1867376C00CB7B43 /* kaiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99032E1A1867376C00CB7B43 /* kaiAppDelegate.m */; };
+		99032E1D1867376C00CB7B43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99032E1C1867376C00CB7B43 /* Images.xcassets */; };
+		99032E241867376D00CB7B43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99032E231867376D00CB7B43 /* XCTest.framework */; };
+		99032E251867376D00CB7B43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99032E0A1867376C00CB7B43 /* Foundation.framework */; };
+		99032E261867376D00CB7B43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99032E0E1867376C00CB7B43 /* UIKit.framework */; };
+		99032E2E1867376D00CB7B43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99032E2C1867376D00CB7B43 /* InfoPlist.strings */; };
+		99032E301867376D00CB7B43 /* TazkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99032E2F1867376D00CB7B43 /* TazkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99032E271867376D00CB7B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99032DFF1867376C00CB7B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99032E061867376C00CB7B43;
+			remoteInfo = Tazk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99032E071867376C00CB7B43 /* Tazk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tazk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99032E0A1867376C00CB7B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99032E0C1867376C00CB7B43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99032E0E1867376C00CB7B43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99032E121867376C00CB7B43 /* Tazk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tazk-Info.plist"; sourceTree = "<group>"; };
+		99032E141867376C00CB7B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99032E161867376C00CB7B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99032E181867376C00CB7B43 /* Tazk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tazk-Prefix.pch"; sourceTree = "<group>"; };
+		99032E191867376C00CB7B43 /* kaiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kaiAppDelegate.h; sourceTree = "<group>"; };
+		99032E1A1867376C00CB7B43 /* kaiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kaiAppDelegate.m; sourceTree = "<group>"; };
+		99032E1C1867376C00CB7B43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99032E221867376D00CB7B43 /* TazkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TazkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99032E231867376D00CB7B43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99032E2B1867376D00CB7B43 /* TazkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TazkTests-Info.plist"; sourceTree = "<group>"; };
+		99032E2D1867376D00CB7B43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99032E2F1867376D00CB7B43 /* TazkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TazkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99032E041867376C00CB7B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99032E0D1867376C00CB7B43 /* CoreGraphics.framework in Frameworks */,
+				99032E0F1867376C00CB7B43 /* UIKit.framework in Frameworks */,
+				99032E0B1867376C00CB7B43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99032E1F1867376D00CB7B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99032E241867376D00CB7B43 /* XCTest.framework in Frameworks */,
+				99032E261867376D00CB7B43 /* UIKit.framework in Frameworks */,
+				99032E251867376D00CB7B43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99032DFE1867376C00CB7B43 = {
+			isa = PBXGroup;
+			children = (
+				99032E101867376C00CB7B43 /* Tazk */,
+				99032E291867376D00CB7B43 /* TazkTests */,
+				99032E091867376C00CB7B43 /* Frameworks */,
+				99032E081867376C00CB7B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99032E081867376C00CB7B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99032E071867376C00CB7B43 /* Tazk.app */,
+				99032E221867376D00CB7B43 /* TazkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99032E091867376C00CB7B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99032E0A1867376C00CB7B43 /* Foundation.framework */,
+				99032E0C1867376C00CB7B43 /* CoreGraphics.framework */,
+				99032E0E1867376C00CB7B43 /* UIKit.framework */,
+				99032E231867376D00CB7B43 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99032E101867376C00CB7B43 /* Tazk */ = {
+			isa = PBXGroup;
+			children = (
+				99032E191867376C00CB7B43 /* kaiAppDelegate.h */,
+				99032E1A1867376C00CB7B43 /* kaiAppDelegate.m */,
+				99032E1C1867376C00CB7B43 /* Images.xcassets */,
+				99032E111867376C00CB7B43 /* Supporting Files */,
+			);
+			path = Tazk;
+			sourceTree = "<group>";
+		};
+		99032E111867376C00CB7B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99032E121867376C00CB7B43 /* Tazk-Info.plist */,
+				99032E131867376C00CB7B43 /* InfoPlist.strings */,
+				99032E161867376C00CB7B43 /* main.m */,
+				99032E181867376C00CB7B43 /* Tazk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99032E291867376D00CB7B43 /* TazkTests */ = {
+			isa = PBXGroup;
+			children = (
+				99032E2F1867376D00CB7B43 /* TazkTests.m */,
+				99032E2A1867376D00CB7B43 /* Supporting Files */,
+			);
+			path = TazkTests;
+			sourceTree = "<group>";
+		};
+		99032E2A1867376D00CB7B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99032E2B1867376D00CB7B43 /* TazkTests-Info.plist */,
+				99032E2C1867376D00CB7B43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99032E061867376C00CB7B43 /* Tazk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99032E331867376D00CB7B43 /* Build configuration list for PBXNativeTarget "Tazk" */;
+			buildPhases = (
+				99032E031867376C00CB7B43 /* Sources */,
+				99032E041867376C00CB7B43 /* Frameworks */,
+				99032E051867376C00CB7B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tazk;
+			productName = Tazk;
+			productReference = 99032E071867376C00CB7B43 /* Tazk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99032E211867376D00CB7B43 /* TazkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99032E361867376D00CB7B43 /* Build configuration list for PBXNativeTarget "TazkTests" */;
+			buildPhases = (
+				99032E1E1867376D00CB7B43 /* Sources */,
+				99032E1F1867376D00CB7B43 /* Frameworks */,
+				99032E201867376D00CB7B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99032E281867376D00CB7B43 /* PBXTargetDependency */,
+			);
+			name = TazkTests;
+			productName = TazkTests;
+			productReference = 99032E221867376D00CB7B43 /* TazkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99032DFF1867376C00CB7B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = kai;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mirror Spock";
+				TargetAttributes = {
+					99032E211867376D00CB7B43 = {
+						TestTargetID = 99032E061867376C00CB7B43;
+					};
+				};
+			};
+			buildConfigurationList = 99032E021867376C00CB7B43 /* Build configuration list for PBXProject "Tazk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99032DFE1867376C00CB7B43;
+			productRefGroup = 99032E081867376C00CB7B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99032E061867376C00CB7B43 /* Tazk */,
+				99032E211867376D00CB7B43 /* TazkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99032E051867376C00CB7B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99032E151867376C00CB7B43 /* InfoPlist.strings in Resources */,
+				99032E1D1867376C00CB7B43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99032E201867376D00CB7B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99032E2E1867376D00CB7B43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99032E031867376C00CB7B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99032E1B1867376C00CB7B43 /* kaiAppDelegate.m in Sources */,
+				99032E171867376C00CB7B43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99032E1E1867376D00CB7B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99032E301867376D00CB7B43 /* TazkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99032E281867376D00CB7B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99032E061867376C00CB7B43 /* Tazk */;
+			targetProxy = 99032E271867376D00CB7B43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99032E131867376C00CB7B43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99032E141867376C00CB7B43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99032E2C1867376D00CB7B43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99032E2D1867376D00CB7B43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99032E311867376D00CB7B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99032E321867376D00CB7B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99032E341867376D00CB7B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tazk/Tazk-Prefix.pch";
+				INFOPLIST_FILE = "Tazk/Tazk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99032E351867376D00CB7B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tazk/Tazk-Prefix.pch";
+				INFOPLIST_FILE = "Tazk/Tazk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99032E371867376D00CB7B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tazk.app/Tazk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tazk/Tazk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TazkTests/TazkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99032E381867376D00CB7B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tazk.app/Tazk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tazk/Tazk-Prefix.pch";
+				INFOPLIST_FILE = "TazkTests/TazkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99032E021867376C00CB7B43 /* Build configuration list for PBXProject "Tazk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99032E311867376D00CB7B43 /* Debug */,
+				99032E321867376D00CB7B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99032E331867376D00CB7B43 /* Build configuration list for PBXNativeTarget "Tazk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99032E341867376D00CB7B43 /* Debug */,
+				99032E351867376D00CB7B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		99032E361867376D00CB7B43 /* Build configuration list for PBXNativeTarget "TazkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99032E371867376D00CB7B43 /* Debug */,
+				99032E381867376D00CB7B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99032DFF1867376C00CB7B43 /* Project object */;
+}
